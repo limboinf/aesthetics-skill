@@ -2,7 +2,7 @@
 
 把任意题材转译成电影大师的视觉美学，产出可以直接交给生图模型的中文画面描述，并给出出图参数建议。
 
-**只写描述，不负责生图。** 生图交给你自己的工具（apimart-image-gen / baoyu-image-gen / MiniMax / 即梦 / nano banana 等）。
+**只写描述，不负责生图。** 生图交给你自己的工具（gpt-image-gen / MiniMax / 即梦 / nano banana 等）。
 
 ## 安装
 
@@ -57,10 +57,8 @@ skills/master-aesthetics/
     ├── _TEMPLATE/              # 加新大师照抄这个
     └── king-hu/
         ├── profile.md          # 风格档案（含禁忌清单）
-        ├── shots.md            # 七式镜头范式 + 现成模板
-        ├── prompt-kit.md       # 词库 + 负向词 + 完整范例
-        └── gallery/            # 参考图 + 索引
-samples/                        # 实跑记录：每轮踩的坑和对应写回 skill 的改动
+        ├── shots.md            # 七式镜头范式（要点 + 默认光色）
+        └── prompt-kit.md       # 词库 + 负向词
 ```
 
 ## 加新大师
