@@ -1,0 +1,5 @@
+.DS_Store
+# 电影截图版权属于原片方，不随仓库分发（见 gallery/index.md）
+skills/master-aesthetics/masters/*/gallery/*.webp
+skills/master-aesthetics/masters/*/gallery/*.jpg
+skills/master-aesthetics/masters/*/gallery/*.png
